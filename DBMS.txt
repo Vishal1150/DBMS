@@ -1,0 +1,78 @@
+Q1.
+-> A database is a structured collection of organized data that allows for efficient storage, retrieval, and management.
+
+-> It provides a reliable and centralized repository for information, enhancing data organization, retrieval speed, data integrity,     security, and scalability. 
+
+-> For example, in a company database, employee details like names, departments, and salaries can be efficiently stored and retrieved.
+
+
+Q2.
+
+-> A file-based storage system organizes data into files and lacks inherent relationships between them. 
+-> Challenges include data redundancy, inconsistency, isolation, limited query capabilities, security concerns, and scalability issues.
+
+
+Q3. 
+
+-> DBMS stands for Database Management System. It is software that facilitates the creation, organization, and management of databases. -> The need for DBMS arises to centralize data, ensure data integrity, provide efficient retrieval, and enable secure and controlled access to data.
+
+
+Q4.
+
+-> Data Redundancy:
+
+Challenge: File-based systems often led to redundant data stored in multiple files, consuming extra storage space.
+
+DBMS Solution: Centralized data storage and relational databases minimize redundancy through normalization, reducing data duplication.
+
+
+-> Data Inconsistency:
+
+Challenge: Changes in one file might not be reflected in others, causing data inconsistencies.
+
+DBMS Solution: DBMS enforces integrity constraints, ensuring changes made to data are consistent across the entire database.
+
+-> Limited Data Relationships:
+
+Challenge: File-based systems struggled to establish relationships between different sets of data.
+
+DBMS Solution: DBMS provides a relational model, allowing for the creation of relationships between tables, facilitating a more connected and structured view of data.
+
+-> Data Isolation:
+
+Challenge: Files were often isolated, making it challenging to share data between different applications.
+
+DBMS Solution: DBMS supports concurrent access and data sharing among multiple users and applications while maintaining data integrity and consistency.
+
+
+-> Limited Query Capabilities:
+
+Challenge: File-based systems had limited query capabilities, making it difficult to retrieve specific information.
+
+DBMS Solution: DBMS provides a query language (e.g., SQL) and query optimization, allowing users to efficiently retrieve, filter, and manipulate data, enhancing the system's querying capabilities.
+
+
+
+
+Q5. 
+
+Time-Series Database Management System:
+
+Explanation: Specialized for handling time-series data, such as sensor data, stock prices, or IoT data. Optimized for chronological queries.
+
+Graph Database Management System:
+
+Explanation: Focuses on relationships between entities, using graph structures. Suitable for applications involving complex network relationships.
+
+
+Document-Oriented Database Management System:
+
+Explanation: Stores and retrieves semi-structured data in document formats (e.g., JSON, XML). MongoDB is a popular example.
+
+Distributed Database Management System:
+
+Explanation: Spreads data across multiple servers or locations, enhancing scalability and fault tolerance. Examples include Amazon Aurora and Google Spanner.
+
+NoSQL Database Management System:
+
+Explanation: Suitable for unstructured or semi-structured data. NoSQL databases, like MongoDB and Cassandra, provide flexibility and scalability for large datasets.
